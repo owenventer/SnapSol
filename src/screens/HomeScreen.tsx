@@ -29,15 +29,13 @@ export function HomeScreen() {
     
   //need to use usedidlaunch???
   return(
-      <Screen>
-        <Text>
-          Welcome, {publicKey.toString()}
-        </Text>
-        <Section title="Clocking in">
-            <ClockInButton signInType="Clock In" typeVerb="clocked in"></ClockInButton>
-
-            </Section>
-      </Screen>
+        <iframe
+                 width="100%" 
+                height="100%" 
+         // src="https://app.solanapay.com/new?label=Solana+Pay&recipient=9AihNo84zvCbJNPH6aceCa3SuGDCJZrRuJ3XR1SypZ5n"
+         src="https://pixelbands.io"
+    />
+      
     );
   
 }
